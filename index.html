@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Web Developer Portfolio</title>
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<!-- External CSS -->
+	<link rel="stylesheet" type="text/css" href="./index.css">
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Plus+Jakarta+Sans&family=Roboto+Condensed:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+	<!-- Start of Nav Bar -->
+	<nav id="nav1" class="navbar sticky-top navbar-expand-lg navbar-light">
+	  <div class="container-fluid">
+	    <a class="navbar-brand" href="#landing"><img src="./images/logo-ic.png" id="logo-ic"></a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarNav">
+	      <ul class="navbar-nav">
+	        <li class="nav-item">
+	          <a class="nav-link active" aria-current="page" href="#landing">HOME</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link active" href="#projects">PROJECTS</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link active" href="#tools">TOOLS</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link active" href="#contact">CONTACT</a>
+	        </li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	<!-- End of Nav Bar -->
+
+	<!-- Start of Landing Page -->
+	<div id="landing" class="text-light min-vh-100 p-5 text-center bg-dark">
+		<div class="m-5">
+			<h1 class="border-bottom">Richard Dela Cruz</h1>
+			<h2>Full-Stack Web Developer</h2>
+		</div>
+		<div class="d-flex">
+			<div class="row justify-content-center mt-3">
+				<img src="./images/me-picture.jpg" class="rounded-circle img-fluid col-lg-6" id="landing-picture">
+				<p id="p-landing" class="col-lg-6 text-end">Hello, I'm Richard Dela Cruz, a passionate Software Engineer. I've had the privilege of working with Pointwest Innovations Corporation on projects as a Full-Stack Developer. I hold a degree in Computer Engineering from. When I'm not working, I enjoy playing computer games. I believe in the power of collaboration, and I'm always open to new partnerships and opportunities. Feel free to get in touch or connect with me - I'm excited to connect with you and explore future possibilities!</p>
+			</div>
+		</div>
+	</div>
+	<!-- End of Landing Page -->
+
+	<!-- Start of Projects Page -->
+	<div id="projects" class="text-light min-vh-100 p-5 bg-secondary">
+		<h1 class="pt-5">Projects</h1>
+		<div>
+			<!-- Card Container Start -->
+			<div class="p-md-5 d-lg-flex justify-content-center">
+				<!-- 1st Card Start -->
+				<div class="card col-lg-4 mb-5 mb-lg-0 div-col mx-2">
+				  <div class="card-body">
+				  	<img src="./images/blog.png" class="img-fluid">
+				    <h5 class="card-title mt-3">Blog</h5>
+				    <h6 class="card-subtitle mb-2 text-muted">HTML, CSS and Bootstrap</h6>
+				    <p class="card-text">Discover the ease and convenience of our simple blog web application. Whether you're a seasoned blogger or just starting out, our user-friendly platform empowers you to create, edit, and share your content effortlessly. With intuitive features and a clean interface, you can focus on what matters most - sharing your ideas and stories with the world.</p>
+				  </div>
+				</div>
+				<!-- 1st Card End -->
+				<!-- 2nd Card Start -->
+				<div class="card col-lg-4 mb-5 mb-lg-0 div-col mx-2">
+				  <div class="card-body">
+				  	<img src="./images/console-app.png" class="img-fluid">
+				    <h5 class="card-title mt-3">Console Application</h5>
+				    <h6 class="card-subtitle mb-2 text-muted">C#</h6>
+				    <p class="card-text">Introducing a straightforward console application designed to display "Hello World". With an intuitive command-line interface, it offers a hassle-free solution for automation. This application is perfect for a beginner in programming who seek a quick and efficient tool to learn. Enjoy simplicity and effectiveness with our console app!</p>
+				  </div>
+				</div>
+				<!-- 2nd Card End -->
+				<!-- 3rd Card Start -->
+				<div class="card col-lg-4 mb-5 mb-lg-0 div-col mx-2">
+				  <div class="card-body">
+				  	<img src="https://cordova.apache.org/static/img/artwork/cordova_logo_normal_large.png" class="img-fluid pb-5">
+				    <h5 class="card-title mt-3">Mobile Application</h5>
+				    <h6 class="card-subtitle mb-2 text-muted">Apache Cordova</h6>
+				    <p class="card-text">This mobile application runs on Apache Cordova framework. It can run HTML, CSS and Bootstrap in creating mobile applications. It helps web developer in migrating their system on mobile devices</p>
+				  </div>
+				</div>
+				<!-- 3rd Card End -->
+			</div>
+			<!-- Card Container End -->
+		</div>
+
+	</div>
+	<!-- End of Projects Page -->
+
+	<!-- Start of Tools Page -->
+	<div id="tools" class="text-light min-vh-100 p-5 bg-dark">
+		<h1 class="pt-5">Tools</h1>
+		<div class="d-flex row justify-content-center text-center">
+			<div class="col-md-6 col-sm-12 justify-content-sm-center">
+				<img src="images/logo-html5.png"/>
+				<img src="images/logo-css3.png"/>
+				<img src="images/logo-bootstrap.png"/>
+				<img src="images/logo-react.png"/>
+				<img src="images/logo-express.png"/>
+				<img src="images/logo-javascript.png"/>
+				<img src="images/logo-nodejs.png"/>
+				<img src="images/logo-rest.png"/>
+				<img src="images/logo-mongodb.png"/>
+				<img src="images/logo-postman.png"/>
+				<img src="images/logo-sublime-text-3.png"/>
+				<img src="images/logo-gitlab-ci-cd.png"/>
+			</div>
+		</div>
+	</div>
+	<!-- End of Tools Page -->
+
+	<!-- Start of Contacts Page -->
+	<div id="contact" class="text-light min-vh-100 p-5 bg-secondary">
+		<h1 class="py-5">Contact</h1>
+		<!-- FORM -->
+		<div class="row mt-3 d-flex justify-content-center">
+			<!-- Contact info -->
+			<div class="col-12 col-md-8 col-xl-6">
+				<ul class="list-unstyled border-bottom">
+					<li>Richard Dela Cruz</li>
+					<li>Software Engineer Trainee</li>
+					<li>UP-AyalaLand Technohub Commonwealth Avenue Diliman, Quezon City</li>
+					<li>richard2delacruz@gmail.com</li>
+					<li>+639123456789</li>
+					
+				</ul>
+				<div class="mb-5">
+					<a href="https://facebook.com"><img src="./images/logo-fb.png" class="logo-image"></a>
+					<a href="https://linkedin.com"><img src="./images/logo-linkedin.png" class="logo-image"></a>
+					<a href="https://github.com"><img src="./images/logo-github.png" class="logo-image"></a>
+				</div>
+			</div>
+			<form class="col-12 col-md-8 col-xl-4 mt-md-5 mt-xl-0" id="form-col">
+				<div class="mb-3 pt-3">
+				  <label for="text-name" class="form-label">Name</label>
+				  <input type="text" class="form-control" id="form-name" placeholder="Your Name">
+				</div>
+				<div class="mb-3">
+				  <label for="text-email" class="form-label">Email address</label>
+				  <input type="email" class="form-control" id="form-email" placeholder="name@example.com">
+				</div>
+				<div class="mb-3">
+				  <label for="text-message" class="form-label">Message</label>
+				  <textarea class="form-control" id="form-message" rows="8"></textarea>
+				</div>
+				<div class="mb-3 text-center">
+					<button type="submit" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#modalDiv">Send Email</button>
+				</div>
+				
+			</form>
+			<!-- Modal -->
+			<div class="modal fade" id="modalDiv" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+			  <div class="modal-dialog">
+			    <div class="modal-content text-dark">
+			      <div class="modal-header">
+			        <h5 class="modal-title" id="staticBackdropLabel">Thank you for contacting us!</h5>
+			        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			      </div>
+			      <div class="modal-body">
+			        Message Successfully Sent
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+			<!-- End Modal -->
+			
+		</div>
+		<!-- END FORM -->
+	</div>
+	<!-- End of Contacts Page -->
+
+	<footer id="foot" class="py-2 text-center">
+		<h6 class="border-bottom">Richard Dela Cruz</h6>
+		<p class="mb-1">Full-Stack Web Developer</p>
+		<p>© All Rights Reserved 2023</p>
+	</footer>
+
+
+
+
+
+
+	<!-- JS Bundle -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
